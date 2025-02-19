@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Poppins", serif;
+    overflow-x: hidden;
+}
+
+#nav{
+    background-color: #B83539 !important;
+}
+
+.navbar-brand{
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+}
+
+.nav-item a{
+    color: white !important;
+}
+
+#video_anuncio {
+    width: 100%;
+    height: 120vw;
+    overflow: hidden;
+
+}
+
+
+#text_video{
+    position: relative;
+    bottom: 110vw;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+#text_video h1{
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 10vw;
+    overflow: hidden;
+
+}
+
+#sub_title{
+    font-size: 5vw !important;
+    font-weight: normal !important;
+}
+
+#video_anuncio video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.div_history {
+    width: 100%;
+    height: 15vw;
+    background-color: #B83539;
+    
+}
+
+.div_history h1 {
+    font-weight: bold;
+    text-align: center;
+    height: 100%;
+    margin: auto 0;
+    align-content: center;
+    color: white;
+}
+
+#creator {
+    width: 100%;
+    height: 250vw;
+    background-color: black !important;
+    background-image: url(Imagens/Simple-Shiny-_1_.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-bottom: 50px solid #B83539;
+}
+
+#john{
+    height: 45vw;
+    width: 35vw;
+    margin-top: 5vw;
+    border-radius: 20px;
+}
+
+#creator p{
+    color: white;
+    text-align: justify ;
+    font-size: 4.8vw;
+    margin: 10vw;
+}
+
+#creator h1{
+    color: white;
+    padding-top: 10vw;
+    font-size: 8vw;
+    overflow: hidden;
+}
+
+#factory {
+    background-image: url(Imagens/Coca-Cola-drink-red-background-red-2100345-wallhere.com.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220vw;
+    text-align: center;
+
+}
+
+.factories{
+    width: 95vw;
+    height: 65vw;
+    border-radius: 10px;
+}
+
+#img_factory1{
+    margin-top: 10vw;
+    margin-bottom: 70vw
+
+}
+
+#div{
+    background-color: #B83539;
+    height: 50px;
+}
+
+#product{
+    width: 100%;
+    height: 100vw;
+    overflow: hidden;
+}
+
+#video2{
+    width: 100%;
+    height: 120vw;
+    overflow: hidden;
+}
+
+#video2 video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.div_prod{
+    background-color: rgba(0, 0, 0, 0.795);
+    width: 100%;
+    height: 15vw;
+}
+
+.div_prod h1{
+    font-weight: bold;
+    text-align: center;
+    height: 100%;
+    margin: auto 0;
+    align-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+#coca_lata{
+    background-image: url(Imagens/fundo\ lata\ coca.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sprite_lata{
+    background-image: url(Imagens/lata_sprite.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fanta_lata{
+    background-image: url(Imagens/lata_fanta.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    width: 100%;
+    height: 50vw;
+    background-color: #1B1D1C;
+}
+
+footer img{
+    width: 30vw;
+    margin-top: 5vw;
+    margin-left: 5vw;
+}
+
+#logo{
+    width: 30vw;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 768px){
+    #logo{
+        width:15vw;
+    }
+
+    #text_video h1{
+        font-size: 7vw;
+    }
+
+    #sub_title{
+        font-size: 4vw !important;
+    }
+}
