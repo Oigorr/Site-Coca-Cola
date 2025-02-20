@@ -82,7 +82,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    border-bottom: 50px solid #B83539;
+    border-bottom: 5px solid #B83539;
 }
 
 #john{
@@ -130,7 +130,7 @@
 
 #div{
     background-color: #B83539;
-    height: 50px;
+    height: 5px;
 }
 
 #product{
@@ -167,6 +167,7 @@
     align-content: center;
     color: white;
     font-weight: bold;
+
 }
 
 #coca_lata{
